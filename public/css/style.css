@@ -1,12 +1,156 @@
+/*General*/
+
 * {
     font-family: 'Roboto';
 }
 
 header {
-    padding: 30px;
+    background-color: #909090;
+    border-bottom: 1px solid #CCC;
+}
+
+body {
+    min-height: 100vh;
+    padding-bottom: 100px;
+    position: relative;
+}
+
+.row {
+    margin: 0;
+}
+
+.btn.btn-primary {
+    background-color: #F2A340;
+    border: 2px solid #C28008;
+    color: black
+}
+
+.btn.btn-primary:hover {
+    background-color: #C28008;
+    border: 2px solid #C28008;
+}
+
+/*Navbar*/
+
+#cards-container {
+    justify-content: space-between;
+    background-color: #FFF;
+    padding: 5px 0;
+}
+
+#navbar img {
+    width: 120px;
+    height: 120px;
 }
 
 img {
     width: 100%;
     height: 750px;
+}
+
+.card-body a {
+    font-size: 14px;
+    color: white;
+}
+
+.card-body a:hover {
+    color: black;
+}
+
+/*Search*/
+
+#search-container {
+    background-image: url("../img/banner2.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 600px;
+    padding: 50px;
+    text-align: center;
+}
+
+#search-container h1 {
+    color: white;
+    margin-bottom: 30px;
+    font-weight: 900;
+}
+
+#search-container form {
+    width: 55%;
+    margin: 0 auto;
+}
+
+/*Search*/
+
+#events-container {
+    padding: 50px;
+}
+
+#events-container h2 {
+    margin-top: 30px;
+    margin-bottom: 15px;
+    font-size: 2rem;
+    padding-left: 20px;
+}
+
+#events-container .subtitle {
+    color: #757575;
+    margin-bottom: 30px;
+    padding-left: 20px;
+}
+
+#cards-container {
+    display: flex;
+    padding-left: 20px;
+}
+
+.card {
+    background-color: #909090;
+}
+
+#events-container {
+    flex: 1 1 0;
+    max-width: 70%;
+    border-radius: 10px;
+    padding: 0;
+    margin-left: 200px;
+}
+
+#events-container img {
+    max-height: 150px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.card.card-date {
+    font-size: 12px;
+    color: #CCC;
+}
+
+.card .card-title {
+    color: #212121;
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+.card .card-participants {
+    font-size: 14px;
+    color: #757575;
+}
+
+/*Footer*/
+
+footer {
+    text-align: center;
+    justify-content: center;
+    padding: 20px;
+    background-color: #909090;
+    color: #FFF;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+footer p {
+    margin-bottom: 0;
 }
