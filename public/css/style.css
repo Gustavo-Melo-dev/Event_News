@@ -30,6 +30,14 @@ body {
     border: 2px solid #C28008;
 }
 
+.msg {
+    background-color: #D4EDDA;
+    border: 1px solid #FFF;
+    text-align: center;
+    margin-bottom: 0;
+    padding: 10px;
+}
+
 /*Navbar*/
 
 #cards-container {
@@ -79,7 +87,7 @@ img {
     margin: 0 auto;
 }
 
-/*Search*/
+/*Events*/
 
 #events-container {
     padding: 50px;
@@ -89,18 +97,18 @@ img {
     margin-top: 30px;
     margin-bottom: 15px;
     font-size: 2rem;
-    padding-left: 20px;
+    padding-left: 30px;
 }
 
 #events-container .subtitle {
     color: #757575;
     margin-bottom: 30px;
-    padding-left: 20px;
+    padding-left: 30px;
 }
 
 #cards-container {
     display: flex;
-    padding-left: 20px;
+    padding-left: 30px;
 }
 
 .card {
@@ -111,8 +119,7 @@ img {
     flex: 1 1 0;
     max-width: 70%;
     border-radius: 10px;
-    padding: 0;
-    margin-left: 200px;
+    margin-left: 235px;
 }
 
 #events-container img {
@@ -152,5 +159,36 @@ footer {
 }
 
 footer p {
+    margin-bottom: 0;
+}
+
+/*Event Create*/
+
+#event-create-container {
+    padding: 30px;
+}
+
+#event-create-container label{
+    font-weight: 900;
+    margin: 5px;
+}
+
+#event-create-container input,
+#event-create-container select,
+#event-create-container textarea {
+    font-size: 15px;
+}
+
+#event-create-container .form-group{
+    padding: 10px;
+}
+
+#description {
+    display: flex;
+    width: 880px;
+}
+
+#event-create-container .btn.btn-primary{
+    margin: 10px;
     margin-bottom: 0;
 }

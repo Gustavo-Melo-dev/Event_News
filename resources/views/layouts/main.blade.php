@@ -38,7 +38,14 @@
             </nav>
         </header>
         <main>
-            @yield('content')
+            <div class="container-fluid">
+                <div class="row">
+                    @if(session('msg'))
+                        <p class="msg">{{ session('msg') }}</p>
+                    @endif
+                    @yield('content')
+                </div>
+            </div>
         </main>
         <footer>
             <p><strong>Event News &copy; 2021</strong></p>
