@@ -15,6 +15,12 @@ body {
     position: relative;
 }
 
+.none {
+    font-size: 2.5rem;
+    color: #909090;
+    text-align: center;
+}
+
 .row {
     margin: 0;
 }
@@ -115,11 +121,11 @@ img {
     background-color: #909090;
 }
 
-#events-container {
-    flex: 1 1 0;
-    max-width: 70%;
+#events-container .card {
+    flex: 1 1 20%;
+    max-width: 19%;
     border-radius: 10px;
-    margin-left: 235px;
+    margin-left: 210px;
 }
 
 #events-container img {
@@ -135,7 +141,7 @@ img {
 
 .card .card-title {
     color: #212121;
-    font-size: 20px;
+    font-size: 18px;
     font-weight: bold;
     margin-bottom: 30px;
 }
@@ -191,4 +197,55 @@ footer p {
 #event-create-container .btn.btn-primary{
     margin: 10px;
     margin-bottom: 0;
+}
+
+/*Event Page*/
+
+#image-container,
+#info-container {
+    margin-top: 30px;
+    padding: 50px;
+}
+
+#image-container img {
+    border-radius: 10px;
+}
+
+#info-container h1{
+    font-size: 36px;
+    font-weight: 900;
+    margin-bottom: 30px;
+}
+
+#info-container p{
+    font-size: 17px;
+    display: flex;
+}
+
+#description-container{
+    padding: 50px;
+}
+
+#description-container P{
+    font-size: 17px;
+}
+
+#info-container h3,
+#description-container h3 {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+#info-container ion-icon {
+    font-size: 20px;
+    color: #F2A340;
+    margin-right: 5px;
+}
+
+#info-container #event-submit {
+    margin-top: 20px 0;
+}
+
+#info-container .items {
+    margin-bottom: 25px;
 }
