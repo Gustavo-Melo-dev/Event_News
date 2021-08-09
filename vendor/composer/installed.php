@@ -1,7 +1,7 @@
 <?php return array(
     'root' => array(
-        'pretty_version' => 'v8.5.23',
-        'version' => '8.5.23.0',
+        'pretty_version' => '1.0.0+no-version-set',
+        'version' => '1.0.0.0',
         'type' => 'project',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
@@ -19,6 +19,15 @@
             'reference' => '9cb795bf30988e8c96dd3c40623c48a877bc6714',
             'dev_requirement' => false,
         ),
+        'bacon/bacon-qr-code' => array(
+            'pretty_version' => '2.0.4',
+            'version' => '2.0.4.0',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../bacon/bacon-qr-code',
+            'aliases' => array(),
+            'reference' => 'f73543ac4e1def05f1a70bcd1525c8a157a1ad09',
+            'dev_requirement' => false,
+        ),
         'brick/math' => array(
             'pretty_version' => '0.9.2',
             'version' => '0.9.2.0',
@@ -33,6 +42,15 @@
             'replaced' => array(
                 0 => '*',
             ),
+        ),
+        'dasprid/enum' => array(
+            'pretty_version' => '1.0.3',
+            'version' => '1.0.3.0',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../dasprid/enum',
+            'aliases' => array(),
+            'reference' => '5abf82f213618696dda8e3bf6f64dd042d8542b2',
+            'dev_requirement' => false,
         ),
         'davedevelopment/hamcrest-php' => array(
             'dev_requirement' => true,
@@ -388,11 +406,38 @@
                 0 => 'v8.53.0',
             ),
         ),
+        'jaybizzle/crawler-detect' => array(
+            'pretty_version' => 'v1.2.106',
+            'version' => '1.2.106.0',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../jaybizzle/crawler-detect',
+            'aliases' => array(),
+            'reference' => '78bf6792cbf9c569dc0bf2465481978fd2ed0de9',
+            'dev_requirement' => false,
+        ),
+        'jenssegers/agent' => array(
+            'pretty_version' => 'v2.6.4',
+            'version' => '2.6.4.0',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../jenssegers/agent',
+            'aliases' => array(),
+            'reference' => 'daa11c43729510b3700bc34d414664966b03bffe',
+            'dev_requirement' => false,
+        ),
         'kodova/hamcrest-php' => array(
             'dev_requirement' => true,
             'replaced' => array(
                 0 => '*',
             ),
+        ),
+        'laravel/fortify' => array(
+            'pretty_version' => 'v1.7.14',
+            'version' => '1.7.14.0',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../laravel/fortify',
+            'aliases' => array(),
+            'reference' => '3e187b3a440f6d41c3b4599ca5d6167a52289a4e',
+            'dev_requirement' => false,
         ),
         'laravel/framework' => array(
             'pretty_version' => 'v8.53.0',
@@ -403,9 +448,18 @@
             'reference' => '4b2e3e7317da82dd9f5b88d477abd93444748b43',
             'dev_requirement' => false,
         ),
+        'laravel/jetstream' => array(
+            'pretty_version' => 'v2.3.14',
+            'version' => '2.3.14.0',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../laravel/jetstream',
+            'aliases' => array(),
+            'reference' => '7446fc7c6e62457bf37fef22e0a0e96956dee089',
+            'dev_requirement' => false,
+        ),
         'laravel/laravel' => array(
-            'pretty_version' => 'v8.5.23',
-            'version' => '8.5.23.0',
+            'pretty_version' => '1.0.0+no-version-set',
+            'version' => '1.0.0.0',
             'type' => 'project',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),
@@ -420,6 +474,15 @@
             'aliases' => array(),
             'reference' => '3e1aa8679b10ae9210eebfbc2ee5f3600f356702',
             'dev_requirement' => true,
+        ),
+        'laravel/sanctum' => array(
+            'pretty_version' => 'v2.11.2',
+            'version' => '2.11.2.0',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../laravel/sanctum',
+            'aliases' => array(),
+            'reference' => 'b21e65cbe13896946986cb0868180cd69e1bd5d3',
+            'dev_requirement' => false,
         ),
         'laravel/tinker' => array(
             'pretty_version' => 'v2.6.1',
@@ -464,6 +527,24 @@
             'install_path' => __DIR__ . '/../league/mime-type-detection',
             'aliases' => array(),
             'reference' => '3b9dff8aaf7323590c1d2e443db701eb1f9aa0d3',
+            'dev_requirement' => false,
+        ),
+        'livewire/livewire' => array(
+            'pretty_version' => 'v2.5.5',
+            'version' => '2.5.5.0',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../livewire/livewire',
+            'aliases' => array(),
+            'reference' => 'de192292d68276d831e5fd9824c80c3b78a21ddf',
+            'dev_requirement' => false,
+        ),
+        'mobiledetect/mobiledetectlib' => array(
+            'pretty_version' => '2.8.37',
+            'version' => '2.8.37.0',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../mobiledetect/mobiledetectlib',
+            'aliases' => array(),
+            'reference' => '9841e3c46f5bd0739b53aed8ac677fa712943df7',
             'dev_requirement' => false,
         ),
         'mockery/mockery' => array(
@@ -554,6 +635,15 @@
             'install_path' => __DIR__ . '/../opis/closure',
             'aliases' => array(),
             'reference' => '06e2ebd25f2869e54a306dda991f7db58066f7f6',
+            'dev_requirement' => false,
+        ),
+        'paragonie/constant_time_encoding' => array(
+            'pretty_version' => 'v2.4.0',
+            'version' => '2.4.0.0',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../paragonie/constant_time_encoding',
+            'aliases' => array(),
+            'reference' => 'f34c2b11eb9d2c9318e13540a1dbc2a3afbd939c',
             'dev_requirement' => false,
         ),
         'phar-io/manifest' => array(
@@ -673,6 +763,15 @@
             'reference' => '191768ccd5c85513b4068bdbe99bb6390c7d54fb',
             'dev_requirement' => true,
         ),
+        'pragmarx/google2fa' => array(
+            'pretty_version' => '8.0.0',
+            'version' => '8.0.0.0',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../pragmarx/google2fa',
+            'aliases' => array(),
+            'reference' => '26c4c5cf30a2844ba121760fd7301f8ad240100b',
+            'dev_requirement' => false,
+        ),
         'psr/container' => array(
             'pretty_version' => '1.1.1',
             'version' => '1.1.1.0',
@@ -760,8 +859,8 @@
         'psr/log-implementation' => array(
             'dev_requirement' => false,
             'provided' => array(
-                0 => '1.0|2.0',
-                1 => '1.0.0',
+                0 => '1.0.0',
+                1 => '1.0|2.0',
             ),
         ),
         'psr/simple-cache' => array(
