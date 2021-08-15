@@ -17,18 +17,18 @@
         <p class="subtitle">Veja os eventos dos próximos dias!</p>
         <div id="cards-container" class="row">
             @foreach($events as $event)
-                <div class="card col-md-4">
+                <div class="card col-md-3">
                     <img src="../img/events/{{ $event->image }}" alt="{{ $event->title }}">
                     <div class="card-body">
                         <p class="card-date">{{ date('d/m/Y', strtotime($event->date))}}</p>
                         <h5 class="card-title">{{ $event->title }}</h5>
-                        <p class="card-participants">X Participantes</p>
+                        <p class="card-participants">{{ count($event->users)}} Participante(s)</p>
                         <a href="/events/{{ $event->id }}" class="btn btn-primary">Saber mais</a>
                     </div>
                 </div>
             @endforeach
             @if(count($events) == 0 && $search)
-                <p class="none">Nenhum evento encontrado por: {{ $search }}! <a href="/">Ver todos</a></p>
+                <p class="none">Nenhum evento encontrado por: {{ $search }} -> <a href="/">Ver todos</a></p>
             @elseif(count($events) == 0)
                 <p class="none">Nenhum evento disponível!</p>
             @endif
